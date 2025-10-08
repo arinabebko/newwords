@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.newwords.R;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Fragment3 extends Fragment {
 
@@ -21,4 +22,5 @@ public class Fragment3 extends Fragment {
         // Подключаем layout для этого фрагмента
         return inflater.inflate(R.layout.fragment3, container, false);
     }
+
 }
